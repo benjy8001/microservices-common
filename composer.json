@@ -3,6 +3,7 @@
     "description": "This is a package for the Microservices testing",
     "type": "library",
     "require": {
+        "php": "^8.0",
         "laravel/framework": "^9.11"
     },
     "license": "MIT",
