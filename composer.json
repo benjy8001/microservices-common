@@ -12,5 +12,10 @@
             "name": "Benjamin Mabille",
             "email": "benjy80@gmail.com"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "Microservices\\": "src"
+        }
+    }
 }
