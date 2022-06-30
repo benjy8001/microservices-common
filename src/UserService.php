@@ -126,7 +126,6 @@ class UserService
      */
     private function headers(): array
     {
-        dump(request()->headers->get('Authorization'));
         return [
             'Authorization' => request()->headers->get('Authorization') ?: sprintf('Bearer %s', request()->cookie('jwt')),
             'Content-Type' => 'application/json',
